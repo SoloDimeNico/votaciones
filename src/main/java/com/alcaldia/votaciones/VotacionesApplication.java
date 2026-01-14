@@ -7,11 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class VotacionesApplication {
 
 	public static void main(String[] args) {
-		String dbUrl = System.getenv("DATABASE_URL");
-		System.out.println("==============================================");
-		System.out.println("DATABASE_URL from environment: " + dbUrl);
-		System.out.println("==============================================");
-		System.out.println("=========================================================");
+
 		SpringApplication.run(VotacionesApplication.class, args);
 	}
 

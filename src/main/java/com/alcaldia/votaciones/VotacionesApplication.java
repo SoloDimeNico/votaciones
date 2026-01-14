@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class VotacionesApplication {
 
 	public static void main(String[] args) {
-		System.out.println("DATABASE_URL: " + System.getenv("DATABASE_URL"));
+		System.out.println("POSTGRES_URL: " + System.getenv("POSTGRES_URL"));
 		System.out.println("PORT: " + System.getenv("PORT"));
 		System.getenv().forEach((key, value) ->
 				System.out.println(key + ": " + value)
